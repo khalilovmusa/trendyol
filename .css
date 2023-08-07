@@ -1,0 +1,41 @@
+.search-nav ul{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  height: 30px;
+}
+
+.search-nav ul li{
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #2a2a2a;
+  display: flex;
+  line-height: 20px;
+  vertical-align: middle;
+  width: 90px;
+  font-size: 14px;
+
+}
+
+li a{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.search-nav ul li a{
+  font-weight: 700;
+  justify-content: center;
+}
+
+.nav-container{
+  padding-left: 15px;
+  
+}
+
+.search-nav ul li:hover{
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+  color: orange;
+  border-bottom-width: 3px;
+}

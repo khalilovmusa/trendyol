@@ -1,0 +1,31 @@
+.help-ad-div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.booking-image,
+.earthquake-image,
+.home-image{
+  width: 386.67px;
+  height: 94.93px;
+}
+
+.booking-div,
+.earthquake-div,
+.home-div{
+  padding: 0.07px 20px 20.07px 0px;
+}
+
+.booking-image{
+  border-radius: 6px;
+  border: none;
+
+}
+
+.booking-image,
+.earthquake-image,
+.home-image{
+  cursor: pointer;
+  
+}

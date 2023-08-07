@@ -1,0 +1,262 @@
+
+.header-ad-img{
+  height: 65px;
+  width: 1300px
+}
+
+.header-ad{
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  
+}
+
+.search-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  padding-right: 28.67px;
+  flex-wrap: nowrap;
+  align-items:  flex-end;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.info-ul{
+  display: flex;
+  flex-direction: row;
+  gap: 30.07px;
+  
+}
+
+.info-ul li a{
+  color: rgb(159, 159, 159);
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  bottom: 0;
+  right: 0;
+  gap: 30.07px;
+  display: flex;
+  text-decoration: none;
+  line-height: 15px;
+}
+
+.info-ul li a:hover{
+  color: grey;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.info-wrapper{
+  justify-content: flex-end;
+  position: relative;
+  
+}
+
+.search-div{
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  
+}
+
+.header-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.trendyol-logo{
+  margin: 0px;
+  position: absolute;
+  left: 28.67px;
+}
+
+.search-textbox{
+  border: none;
+  position: relative;
+  width: 600px;
+  height: 50px;
+}
+
+input[type=textbox]:focus {
+  border-color: orange;
+  border-style: solid;
+  border-width: 3px;
+  outline: none;
+  border-radius: 6px;
+
+}
+
+.searchbox::placeholder{
+  font-family: Source Sans Pro,Arial;
+}
+
+.searchbox{
+  width: 539px;
+  height: 18.67px;
+  padding: 12px 42px 12px 17px;
+  border: none;
+  border-radius: 6px;
+  background-color: #F3F3F3;
+  margin: 0;
+}
+
+.search{
+  display: flex;
+  
+}
+
+.search-textbox button{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.header-buttons{
+  gap: 20px;
+  color: #333;
+  align-items: center;;
+}
+
+
+.bottom-border{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(224, 224, 224);
+  padding-bottom: 10px;
+  margin-bottom: 16.4px;
+}
+
+.search-nav a{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family:  Source Sans Pro,Arial;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.18px;
+  
+}
+
+.search-nav a:hover{
+  color: orange;
+}
+
+.new,
+.yeni{
+  font-family: Source sans pro,Arial;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 4px;
+  font-size: 10px;
+  
+}
+
+.new:hover,
+.yeni:hover{
+  background-color: orange;
+  color: white;
+}
+
+.sepet-div:hover,
+.favorilerim-div:hover,
+.giris-div:hover{
+   color: orange;
+}
+
+.search-nav a{
+  position: relative;
+}
+
+.search-nav a::before{
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: orange;
+  margin-top: 10px;
+}
+
+.search-nav a:hover::before{
+  width: 100%;
+}
+
+.brands-container{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding: 20px 12.5px 25px 12.5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.brands-container::-webkit-scrollbar{
+  display: none;
+}
+
+.image-container:hover{
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: orange;
+  border-radius: 34px;
+  width: 68px;
+  height: 68px;
+  margin-bottom: 10px;
+}
+
+.brand-div:hover .text-container{
+  color: orange;
+}
+
+
+.brand-div{
+  width: 115px;
+  padding: 0px 20.5px 0.66px 20.5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.text-container{
+  color: #333;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+
+}
+
+
+.image-container{
+  margin-bottom: 9.34px;
+}
+
+.sana-ozel-photo{
+  width: 68px;
+  height: 68px;
+  border-radius: 34px;
+  width: 68px;
+  height: 68px;
+}
