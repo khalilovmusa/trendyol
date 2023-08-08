@@ -209,10 +209,21 @@ input[type=textbox]:focus {
   padding: 20px 12.5px 25px 12.5px;
   margin-left: 0;
   margin-right: 0;
+  white-space: nowrap;
+  flex-grow: none;
 }
 
 .brands-container::-webkit-scrollbar{
   display: none;
+}
+
+.image-container{
+  margin-bottom: 9.34px;
+  position: relative;
+  border-radius: 34px;
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
 }
 
 .image-container:hover{
@@ -222,7 +233,7 @@ input[type=textbox]:focus {
   border-radius: 34px;
   width: 68px;
   height: 68px;
-  margin-bottom: 10px;
+  
 }
 
 .brand-div:hover .text-container{
@@ -231,10 +242,11 @@ input[type=textbox]:focus {
 
 
 .brand-div{
-  width: 115px;
+  width: 120px;
+  height: 120px;
   padding: 0px 20.5px 0.66px 20.5px;
-  margin-right: 5px;
-  z-index: 1;
+  margin-right: 7px;
+
 }
 
 .text-container{
@@ -244,14 +256,10 @@ input[type=textbox]:focus {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 18px;
 
 }
 
-
-.image-container{
-  margin-bottom: 9.34px;
-}
 
 .sana-ozel-photo{
   width: 68px;
@@ -259,4 +267,77 @@ input[type=textbox]:focus {
   border-radius: 34px;
   width: 68px;
   height: 68px;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 12.5px 25px 12.5px;
+}
+
+.en-cok-eklenenler,
+.one-cikanlar,
+.flas-urunler{
+  width: 406.67px;
+  height: 76.98px;
+  padding: 0px 20px 19.54px 0px;
+}
+
+.sepete-en-cok-eklenenler,
+.en-cok-one-cikanlar,
+.flas-urunler-image{
+  width: 386.67px;
+  height: 57.88px;
+  cursor: pointer;
+
+}
+
+.woman-ad{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.woman-ad-div{
+  border: none;
+  position: relative;
+  width: 383.29px;
+}
+ 
+.woman-image{
+  width: 383.29px;
+  height: 180px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0;
+}
+
+.woman-image:hover{
+  transform: scale(1.015);
+  transition: 1s;
+}
+
+.woman-ad-overlay{
+  overflow: hidden;
+}
+
+.woman-ad-div:hover .ad-overlay{
+  background-color: orange;
+}
+
+.ad-overlay{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;;
+  margin-top: -5px;
+}
+
+.secimler{
+  margin-left: 15px;
 }
