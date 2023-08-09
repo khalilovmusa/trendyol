@@ -341,3 +341,172 @@ input[type=textbox]:focus {
 .secimler{
   margin-left: 15px;
 }
+
+.bestseller-scroll{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.bestseller-scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.bestseller-container{
+  width: 240px;
+  height: 377px;
+  position: relative;
+  margin-left: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.11);
+  padding: 5px;
+
+
+}
+
+.bestseller-text-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.bestseller-div{
+  margin-top: 20px;
+  background: #FFFAF6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20.67px 20.66px 20.66px;
+  border-radius: 6px;
+  border: 1px solid #F2E5DA;
+}
+
+.product-image{
+  height: 215px;
+  width: 222.67px;
+  
+}
+
+.product-image-div{
+  overflow: hidden;
+}
+
+.product-image:hover{
+  transform: scale(1.035);
+  transition: 1s;
+}
+
+.product-header-div{
+  display: flex;
+  line-height: 20px;
+  margin-bottom: 20px;
+
+}
+
+.rise-text{
+  color: black;
+  font-family: source sans pro,Arial;
+}
+
+.antiperspirant-text{
+  margin-left: 2px;
+  color: grey;
+
+}
+
+.best-price{
+  margin-bottom: 18px;
+}
+
+.price-text{
+  font-weight: 700;
+}
+
+.best-price,
+.price-text{
+  color: #B00;
+
+}
+
+.bestseller-image{
+  width: 53.96px;
+  height: 53.96px;
+  position: absolute;
+  top: 10%;
+  z-index: 2;
+}
+
+
+      /* heart checkbox */
+
+.parent-container{
+  position: absolute;
+  top: -3%;
+  right: 10%;
+  background-color: white;
+  height: 38px;
+  width: 38px;
+  border: none;
+  border-radius: 19px;
+  box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, 0.11);
+  z-index: 2;
+}
+
+.heart-checkbox-container{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input[type="checkbox"]{
+  height: 13px;
+  width: 13px;
+  -webkit-appearance: none;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  outline: none;
+  transform: rotate(45deg);
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  z-index: 1;
+}
+
+input[type="checkbox"]:before{
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  height: 60%;
+  width: 100%;
+  top: -70%;
+  border-radius: 50px 50px 0 0;
+  right: -27%;
+}
+
+input[type="checkbox"]:after{
+  position: absolute;
+  background-color: white;
+  content: "";
+  height: 60%;
+  width: 88%;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  border-radius: 40px 40px 0 0;
+  transform: rotate(-90deg);
+  top: 17%;
+  right: 63%;
+
+}
+
+input:checked[type="checkbox"]:after,
+input:checked[type="checkbox"]:before,
+input[type="checkbox"]:checked{
+  background-color: red;
+
+}
