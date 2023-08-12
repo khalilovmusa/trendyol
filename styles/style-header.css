@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 
 .header-ad-img{
   height: 65px;
@@ -296,6 +300,11 @@ input[type=textbox]:focus {
   width: 100%;
 }
 
+.help-ad-div{
+  padding-left: 25px;
+
+}
+
 .brands-container{
   display: flex;
   flex-direction: row;
@@ -433,6 +442,19 @@ input[type=textbox]:focus {
   color: white;
   font-weight: 500;
 
+}
+
+.bestseller-products-text{
+  color: #333;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px; /* 77.273% */
+}
+
+.all-items-text{
+  text-decoration: underline;
 }
 
 .bestseller-scroll{
@@ -795,4 +817,239 @@ input[type="checkbox"]:checked{
   position: absolute;
   top: 17%;
   z-index: 2;
+}
+
+
+/*  footer part*/
+
+
+.footer-container{
+  margin: auto;
+  height: 500px;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.row-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+ul{
+  list-style: none;
+
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-column{
+  width: 25%;
+  
+}
+
+.footer-column h4{
+  font-size: 25px;
+  color: white;
+  margin-left: 40px;
+}
+
+.footer-column ul{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column ul li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+ ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer-column-2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.footer-column-2 h4{
+  margin-left: 28px;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payment-methods-image-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0px;
+  
+}
+
+.troy-image{
+  width: 50px;
+  height: 26px;
+  object-fit: cover;
+  object-position: middle;
+  cursor: pointer;
+
+}
+
+.mastercard-image{
+  width: 45px;
+  height: 35px;
+  object-fit: cover;
+  object-position: middle;
+  cursor: pointer;
+
+}
+
+.mastercard-image-div{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.visa-image{
+  width: 50px;
+  height: 24px;
+  object-fit: cover;
+  object-position: middle;
+  cursor: pointer;
+
+}
+
+.american-express-image{
+  width: 40px;
+  height: 20px;
+  object-fit: cover;
+  object-position: middle;
+  cursor: pointer;
+
+}
+
+.payment-methods-image-container div{
+  padding: 5px 10px;
+  
+}
+
+.payment-methods-image-container{
+  margin-left: 20px;
+}
+
+.mobile-programs-image-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.appstore-image{
+  width: 137.18px;
+  height: 40px;
+}
+
+.googleplay-image{
+  width: 137.18px;
+  height: 40px;
+}
+
+.appgallery-image{
+  width: 137.18px;
+  height: 40px;
+}
+
+.troy-image-div,
+.mastercard-image-div,
+.visa-image-div,
+.american-express-div{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.social-media-image-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+
+}
+
+.facebook-image,
+.instagram-image,
+.twitter-image,
+.youtube-image{
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+.change-country-button{
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 95px;
+  padding: 1.67px 8.76px 2.33px 9.24px;
+  border-radius: 6px;
+  border: 1px solid #FFF;
+  background: #000;
+  cursor: pointer;
+  margin-left: 28px;
+  
+}
+
+.footer-qr-images-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 28px;
+}
+
+.tr-logo-image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code-image{
+  width: 93px;
+  height: 103px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.tr-logo-image{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+
 }
