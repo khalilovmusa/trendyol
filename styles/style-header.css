@@ -34,6 +34,16 @@ body{
   width: 80px;
 }
 
+.giris-yap-anchor{
+  text-decoration: none;
+  color: #fff;
+}
+
+.sign-in-anchor{
+  color: #000;
+  
+}
+
 .tooltip{
   display: flex;
   justify-content: center;
@@ -543,6 +553,11 @@ input[type=textbox]:focus {
 
 }
 
+.first-price{
+  color: grey;
+  text-decoration: line-through;
+}
+
 .price-text-2{
   font-weight: 700;
   position: absolute;
@@ -1024,7 +1039,7 @@ ul{
   background: #000;
   cursor: pointer;
   margin-left: 28px;
-  
+
 }
 
 .footer-qr-images-div{
@@ -1052,4 +1067,100 @@ ul{
   height: 50px;
   cursor: pointer;
 
+}
+
+.privacy-policy-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 88.66px 9px 88.67px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2D2D2D;
+  font-size: 12px;
+  color: white;
+
+}
+
+.privacy-policy-second-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.cookies-text,
+.privacy-policy-text,
+.group-text,
+.consultancy-text{
+  margin-right: 17px;
+  cursor: pointer;
+
+}
+
+.populer-markalar-footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30.67px 88.66px 30px 88.67px;
+}
+
+.popular-markalar-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+}
+
+.populer-markalar-text-container{
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.populer-markalar-itself{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 486px;
+  height: 380px;
+  color: #1B1B1B;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popular-pages-container-div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.popular-pages-text-container{
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popular-pages-itself{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 486px;
+  height: 380px;
+  color: #1B1B1B;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

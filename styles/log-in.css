@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background:url('./background.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 1220px;
+  height: 1000px;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background-image: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  background: transparent;
+}
+
+.log-in-photo{
+  width: 445px;
+  height: 489.94px;
+  max-width: 445px;
+  flex-shrink: 0;
+}
+
+.log-in-information-container{
+  background-color: #fff;
+  display: flex;
+  padding: 88.97px 60px 89.97px 10px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.welcome-text{
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 100% */
+  margin-left: -40%;
+}
+
+.select-country-text{
+  color: #333;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: -40%;
+}
+
+.country-select-box{
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.country-select{
+  display: inline-flex;
+  padding: 16px 1px 16px 16px;
+  align-items: flex-start;
+  border: 1px solid #999;
+  width: 445px;
+  height: 55px;
+}
+
+.select-button{
+  display: flex;
+  width: 445px;
+  padding: 19px 188.59px 21px 188.41px;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.payment-methods-image-div{
+  display: flex;
+  width: 445px;
+  padding: 15px 228px 15px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 0px;
+  position: relative;
+}
+
+.returns-text{
+  color: #333;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 100% */
+  
+}
+
+.payment-images-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mastercard-logo-image,
+.visa-logo-image,
+.paypal-logo-image,
+.klarna-logo-image,
+.google-pay-logo-image,
+.applepay-logo-image{
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+
+.mastercard-logo-image{
+  width: 42px;
+  height: 28px;
+}
+
+.visa-logo-image{
+  width: 42px;
+  height: 28px;
+}
+
+.paypal-logo-image{
+  width: 42px;
+  height: 28px;
+}
+
+.klarna-logo-image{
+  width: 47.98px;
+  height: 27.995px;
+}
+
+.google-pay-logo-image{
+  width: 51.34px;
+  height: 27.994px;
+}
+
+.applepay-logo-image{
+  width: 43.06px;
+  height: 27.989px;
+}
