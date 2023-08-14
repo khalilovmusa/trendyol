@@ -1,6 +1,13 @@
+@media (min-width:1000px) {
+    main{
+      padding-left: 12px;
+
+    }
+}
+
 body{
-  margin: 0;
   padding: 0;
+
 }
 
 .header-ad-img{
@@ -324,6 +331,7 @@ input[type=textbox]:focus {
   margin-right: 0;
   white-space: nowrap;
   flex-grow: none;
+
 }
 
 .brands-container::-webkit-scrollbar{
@@ -337,6 +345,8 @@ input[type=textbox]:focus {
   width: 68px;
   height: 68px;
   cursor: pointer;
+  border-radius: 34px;
+  border: 1.5px solid #E6E6E6;
 }
 
 .image-container:hover{
@@ -346,16 +356,19 @@ input[type=textbox]:focus {
   border-radius: 34px;
   width: 68px;
   height: 68px;
-  
+  transition: 0.25s;
 }
 
 
 .brand-div{
-  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 120px;
-  padding: 0px 20.5px 0.66px 20.5px;
   margin-right: 7px;
   color: white;
+  width: 115px;
+  padding: 0px 20.5px 0.66px 20.5px;
 }
 
 .text-container{
@@ -366,6 +379,13 @@ input[type=textbox]:focus {
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+  
+}
+
+
+.brand-div:hover .text-container{
+  color: orange;
+  transition: 0.25s;
 
 }
 
